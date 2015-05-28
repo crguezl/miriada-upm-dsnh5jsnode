@@ -16,6 +16,10 @@ UPM.
 * Juan Carlos Yelmo García
 * Álvaro Alonso
 
+## Que es esto
+
+Son los *apuntes* de Casiano sobre el curso
+
 ## Introducción
 
 Este curso es para personas con conocimientos medios de programación
