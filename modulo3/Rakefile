@@ -1,0 +1,15 @@
+task :get do
+  sh "curl -X GET -v localhost:3000/one.html"
+end
+
+task :put do
+  sh "curl -X PUT -v localhost:3000"
+end
+
+task :delete do
+  sh "curl -X DELETE -v localhost:3000"
+end
+
+task :post do
+  sh "curl -X POST -d 'tutu' -v localhost:3000"
+end
