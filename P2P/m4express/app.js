@@ -24,7 +24,7 @@ La página incluirá además un enlace asociado al texto “Volver a la
 página inicial”, que permita volver a la página 1.
 
 La página 2 estará asociada a la transacción HTTP:  GET /respuesta
-*/ 
+*/
 
 var path = require('path');
 var express = require('express');
@@ -36,12 +36,40 @@ app.locals.answers = {
 };
 
 function pagina1(res) {
-  res.sendFile(path.join(__dirname, 'preguntas.html'));
+  //res.sendFile(path.join(__dirname, 'preguntas.html'));
+  res.send(
+'  <!DOCTYPE html>' + "\n" +
+'  <html lang="en">' + "\n" +
+'    <head>' + "\n" +
+'      <meta charset="UTF-8">' + "\n" +
+'      <title>Cuestionario</title>' + "\n" +
+'    </head>' + "\n" +
+'    <body>' + "\n" +
+'        <ol>' + "\n" +
+'          <li>' + "\n" +
+'            <form method="GET" action="/respuesta/1">' + "\n" +
+'              <label for="1">¿Quién descubrió América?</label>' + "\n" +
+'              <input id="1" name ="1" type="text" size="40">' + "\n" +
+'              <input type="submit" value="submit"><br>' + "\n" +
+'            </form>' + "\n" +
+'          </li>' + "\n" +
+'          <li>' + "\n" +
+'            <form method="GET" action="/respuesta/2">' + "\n" +
+'              <label for="2">¿Capital de Portugal?</label>' + "\n" +
+'              <input id="2" name ="2" type="text" size="40">' + "\n" +
+'              <input type="submit" value="submit"><br>' + "\n" +
+'            </form>' + "\n" +
+'          </li>' + "\n" +
+'        </ol>' + "\n" +
+'      </body>' + "\n" +
+'    </html>'
+  );
 }
 
 function pagina2(kind) {
   return kind +
-    '<br><a href="/preguntas">Volver a la página inicial</a>'
+    '<br>' +
+    '<a href="/preguntas">Volver a la página inicial</a>';
 }
 
 app.get('/preguntas', function(req, res) {
@@ -67,11 +95,11 @@ app.get('/respuesta/:id', function(req, res, next) {
   }
 });
 
-app.get('*', function(req,res){
+app.get('*', function(req, res){
   res.redirect('/preguntas');
 });
 
-app.use(function(err,req,res,next){
+app.use(function(err, req, res, next){
   res.send(pagina2(err.toString()));
 });
 
