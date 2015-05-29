@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-app.locals.counter = 0;
+app.locals.counter = 5;
 
 app.use(function(req, res, next) {
   app.locals.counter += 1;
