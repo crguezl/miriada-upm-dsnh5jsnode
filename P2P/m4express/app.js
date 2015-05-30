@@ -48,15 +48,12 @@ function pagina1(res) {
 '    </head>' + "\n" +
 '    <body>' + "\n" +
 '        <ol>' + "\n" +
-'          <li>' + "\n" +
-'             pregunta1' +
-'          </li>' + "\n" +
-'          <li>' + "\n" +
-'             pregunta2' +
-'          </li>' + "\n" +
+'          preguntas' + "\n" +
 '        </ol>' + "\n" +
 '      </body>' + "\n" +
 '    </html>';
+
+/* todo: factorize in a loop traversing app.locals.answers */
 var pregunta1 = 
 '            <form method="GET" action="/respuesta/1">' + "\n" +
 '              <label for="1">' + app.locals.answers[1].question  + '</label>' + "\n" +
@@ -69,7 +66,14 @@ var pregunta2 =
 '              <input id="2" name ="2" type="text" size="40">' + "\n" +
 '              <input type="submit" value="submit"><br>' + "\n" +
 '            </form>';
-  res.send(layout.replace(/pregunta1/, pregunta1).replace(/pregunta2/,pregunta2));
+var preguntas = 
+'          <li>' + "\n" +
+'             ' + pregunta1 +
+'          </li>' + "\n" +
+'          <li>' + "\n" +
+'             ' + pregunta2 +
+'          </li>';
+  res.send(layout.replace(/preguntas/, preguntas));
 }
 
 function pagina2(kind, suggest) {
