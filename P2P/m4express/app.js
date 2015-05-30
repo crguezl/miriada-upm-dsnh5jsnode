@@ -55,7 +55,6 @@ function pagina1(res) {
 '      </body>' + "\n" +
 '    </html>';
 
-/* todo: factorize in a loop traversing app.locals.quiz */
   var pregunta = '', preguntas = '';
   for (var i in app.locals.quiz) {
     pregunta = 
