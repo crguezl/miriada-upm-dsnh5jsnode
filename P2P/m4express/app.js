@@ -31,8 +31,8 @@ var express = require('express');
 var app = express();
 
 app.locals.answers = {
-  1: /^\s*(Cristobal\s+)?Col[oó]n\s*$/i, 
-  2:/^\s*(Lisboa|Lisbon)\s*$/i 
+  1: { answer: /^\s*(Cristobal\s+)?Col[oó]n\s*$/i, suggest: 'Cristobal Colón'},
+  2: { answer: /^\s*(Lisboa|Lisbon)\s*$/i, suggest: 'Lisboa' }
 };
 
 function pagina1(res) {
@@ -66,9 +66,11 @@ function pagina1(res) {
   );
 }
 
-function pagina2(kind) {
+function pagina2(kind, suggest) {
   return kind +
-    '<br>' +
+    " <br> "  +
+    suggest   +
+    '<br>'    +
     '<a href="/preguntas">Volver a la página inicial</a>';
 }
 
@@ -81,11 +83,11 @@ app.get('/respuesta/:id', function(req, res, next) {
   if (question in app.locals.answers) {
     var answer = req.query[req.params.id];
     if (answer) {
-      if (answer.match(app.locals.answers[question])) {
-        res.send(pagina2("¡Correcto!"));
+      if (answer.match(app.locals.answers[question].answer)) {
+        res.send(pagina2("¡Correcto!", ""));
       }
       else {
-        res.send(pagina2("¡Incorrecto!"));
+        res.send(pagina2("¡Incorrecto!", "La respuesta correcta es: "+app.locals.answers[question].suggest));
       }
     } else {
       next(new Error("Especifique una respuesta para la pregunta "+question));
