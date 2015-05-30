@@ -31,13 +31,15 @@ var express = require('express');
 var app = express();
 
 app.locals.answers = {
-  1: { answer: /^\s*(Cristobal\s+)?Col[oó]n\s*$/i, suggest: 'Cristobal Colón'},
-  2: { answer: /^\s*(Lisboa|Lisbon)\s*$/i, suggest: 'Lisboa' }
+  1: { question: '¿Quién descubrió América?',
+       answer: /^\s*(Cristobal\s+)?Col[oó]n\s*$/i, suggest: 'Cristobal Colón'},
+  2: { question: '¿Capital de Portugal?',
+       answer: /^\s*(Lisboa|Lisbon)\s*$/i, suggest: 'Lisboa' }
 };
 
 function pagina1(res) {
   //res.sendFile(path.join(__dirname, 'preguntas.html'));
-  res.send(
+  var layout = 
 '  <!DOCTYPE html>' + "\n" +
 '  <html lang="en">' + "\n" +
 '    <head>' + "\n" +
@@ -47,23 +49,27 @@ function pagina1(res) {
 '    <body>' + "\n" +
 '        <ol>' + "\n" +
 '          <li>' + "\n" +
-'            <form method="GET" action="/respuesta/1">' + "\n" +
-'              <label for="1">¿Quién descubrió América?</label>' + "\n" +
-'              <input id="1" name ="1" type="text" size="40">' + "\n" +
-'              <input type="submit" value="submit"><br>' + "\n" +
-'            </form>' + "\n" +
+'             pregunta1' +
 '          </li>' + "\n" +
 '          <li>' + "\n" +
-'            <form method="GET" action="/respuesta/2">' + "\n" +
-'              <label for="2">¿Capital de Portugal?</label>' + "\n" +
-'              <input id="2" name ="2" type="text" size="40">' + "\n" +
-'              <input type="submit" value="submit"><br>' + "\n" +
-'            </form>' + "\n" +
+'             pregunta2' +
 '          </li>' + "\n" +
 '        </ol>' + "\n" +
 '      </body>' + "\n" +
-'    </html>'
-  );
+'    </html>';
+var pregunta1 = 
+'            <form method="GET" action="/respuesta/1">' + "\n" +
+'              <label for="1">' + app.locals.answers[1].question  + '</label>' + "\n" +
+'              <input id="1" name ="1" type="text" size="40">' + "\n" +
+'              <input type="submit" value="submit"><br>' + "\n" +
+'            </form>';
+var pregunta2 = 
+'            <form method="GET" action="/respuesta/2">' + "\n" +
+'              <label for="2">' + app.locals.answers[2].question + '</label>' + "\n" +
+'              <input id="2" name ="2" type="text" size="40">' + "\n" +
+'              <input type="submit" value="submit"><br>' + "\n" +
+'            </form>';
+  res.send(layout.replace(/pregunta1/, pregunta1).replace(/pregunta2/,pregunta2));
 }
 
 function pagina2(kind, suggest) {
@@ -82,7 +88,6 @@ function pagina2(kind, suggest) {
 '  <a href="/preguntas">Volver a la página inicial</a>' + "\n" +
 '</body>' + "\n" +
 '</html>';
-  console.log(answer);
   return answer.replace(/kind/g, kind).replace(/\bsuggest\b/g, suggest);
 }
 
