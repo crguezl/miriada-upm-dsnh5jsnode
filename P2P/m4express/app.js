@@ -34,7 +34,9 @@ app.locals.quiz = {
   1: { question: '¿Quién descubrió América?',
        answer: /^\s*(Cristobal\s+)?Col[oó]n\s*$/i, suggest: 'Cristobal Colón'},
   2: { question: '¿Capital de Portugal?',
-       answer: /^\s*(Lisboa|Lisbon)\s*$/i, suggest: 'Lisboa' }
+       answer: /^\s*(Lisboa|Lisbon)\s*$/i, suggest: 'Lisboa' },
+  3: { question: '7 * 8 = ?',
+       answer: /^\s*(56|cincuenta y seis)\s*$/i, suggest: '7*7 es 49' }
 };
 
 function pagina1(res) {
@@ -54,25 +56,19 @@ function pagina1(res) {
 '    </html>';
 
 /* todo: factorize in a loop traversing app.locals.quiz */
-var pregunta1 = 
-'            <form method="GET" action="/respuesta/1">' + "\n" +
-'              <label for="1">' + app.locals.quiz[1].question  + '</label>' + "\n" +
-'              <input id="1" name ="1" type="text" size="40">' + "\n" +
+  var pregunta = '', preguntas = '';
+  for (var i in app.locals.quiz) {
+    pregunta = 
+'            <form method="GET" action="/respuesta/' + i + '">' + "\n" +
+'              <label for="' + i + '">' + app.locals.quiz[i].question  + '</label>' + "\n" +
+'              <input id="' + i + '" name ="' + i + '" type="text" size="40">' + "\n" +
 '              <input type="submit" value="submit"><br>' + "\n" +
 '            </form>';
-var pregunta2 = 
-'            <form method="GET" action="/respuesta/2">' + "\n" +
-'              <label for="2">' + app.locals.quiz[2].question + '</label>' + "\n" +
-'              <input id="2" name ="2" type="text" size="40">' + "\n" +
-'              <input type="submit" value="submit"><br>' + "\n" +
-'            </form>';
-var preguntas = 
+    preguntas +=
 '          <li>' + "\n" +
-'             ' + pregunta1 +
-'          </li>' + "\n" +
-'          <li>' + "\n" +
-'             ' + pregunta2 +
-'          </li>';
+'             ' + pregunta 
+'          </li>' + "\n";
+  }
   res.send(layout.replace(/preguntas/, preguntas));
 }
 
@@ -108,7 +104,7 @@ app.get('/respuesta/:id', function(req, res, next) {
         res.send(pagina2("¡Correcto!", ""));
       }
       else {
-        res.send(pagina2("¡Incorrecto!", "La respuesta correcta es: "+app.locals.quiz[question].suggest));
+        res.send(pagina2("¡Incorrecto!", "Sugerencia: "+app.locals.quiz[question].suggest));
       }
     } else {
       next(new Error("Especifique una respuesta para la pregunta "+question));
