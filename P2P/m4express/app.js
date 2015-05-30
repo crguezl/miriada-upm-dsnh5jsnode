@@ -97,6 +97,7 @@ app.get('/preguntas', function(req, res) {
 
 app.get('/respuesta/:id', function(req, res, next) {
   var question = req.params.id;
+  console.log(question);
   if (question in app.locals.quiz) {
     var answer = req.query[req.params.id];
     if (answer) {
@@ -104,13 +105,13 @@ app.get('/respuesta/:id', function(req, res, next) {
         res.send(pagina2("¡Correcto!", ""));
       }
       else {
-        res.send(pagina2("¡Incorrecto!", "Sugerencia: "+app.locals.quiz[question].suggest));
+        res.send(pagina2("¡Incorrecto!", "Sugerencia: " + app.locals.quiz[question].suggest));
       }
     } else {
-      next(new Error("Especifique una respuesta para la pregunta "+question));
+      next(new Error("Especifique una respuesta para la pregunta " + question));
     }
   } else { 
-    next(new Error("No existe la pregunta "+question));
+    next(new Error("No existe la pregunta " + question));
   }
 });
 
@@ -119,7 +120,7 @@ app.get('*', function(req, res){
 });
 
 app.use(function(err, req, res, next){
-  res.send(pagina2(err.toString()));
+  res.send(pagina2(err.message,''));
 });
 
 console.log('App listening on port 3000. Visit http://localhost:3000');
