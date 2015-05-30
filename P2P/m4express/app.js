@@ -30,7 +30,7 @@ var path = require('path');
 var express = require('express');
 var app = express();
 
-app.locals.answers = {
+app.locals.quiz = {
   1: { question: '¿Quién descubrió América?',
        answer: /^\s*(Cristobal\s+)?Col[oó]n\s*$/i, suggest: 'Cristobal Colón'},
   2: { question: '¿Capital de Portugal?',
@@ -53,16 +53,16 @@ function pagina1(res) {
 '      </body>' + "\n" +
 '    </html>';
 
-/* todo: factorize in a loop traversing app.locals.answers */
+/* todo: factorize in a loop traversing app.locals.quiz */
 var pregunta1 = 
 '            <form method="GET" action="/respuesta/1">' + "\n" +
-'              <label for="1">' + app.locals.answers[1].question  + '</label>' + "\n" +
+'              <label for="1">' + app.locals.quiz[1].question  + '</label>' + "\n" +
 '              <input id="1" name ="1" type="text" size="40">' + "\n" +
 '              <input type="submit" value="submit"><br>' + "\n" +
 '            </form>';
 var pregunta2 = 
 '            <form method="GET" action="/respuesta/2">' + "\n" +
-'              <label for="2">' + app.locals.answers[2].question + '</label>' + "\n" +
+'              <label for="2">' + app.locals.quiz[2].question + '</label>' + "\n" +
 '              <input id="2" name ="2" type="text" size="40">' + "\n" +
 '              <input type="submit" value="submit"><br>' + "\n" +
 '            </form>';
@@ -101,14 +101,14 @@ app.get('/preguntas', function(req, res) {
 
 app.get('/respuesta/:id', function(req, res, next) {
   var question = req.params.id;
-  if (question in app.locals.answers) {
+  if (question in app.locals.quiz) {
     var answer = req.query[req.params.id];
     if (answer) {
-      if (answer.match(app.locals.answers[question].answer)) {
+      if (answer.match(app.locals.quiz[question].answer)) {
         res.send(pagina2("¡Correcto!", ""));
       }
       else {
-        res.send(pagina2("¡Incorrecto!", "La respuesta correcta es: "+app.locals.answers[question].suggest));
+        res.send(pagina2("¡Incorrecto!", "La respuesta correcta es: "+app.locals.quiz[question].suggest));
       }
     } else {
       next(new Error("Especifique una respuesta para la pregunta "+question));
