@@ -67,11 +67,23 @@ function pagina1(res) {
 }
 
 function pagina2(kind, suggest) {
-  return kind +
-    " <br> "  +
-    suggest   +
-    '<br>'    +
-    '<a href="/preguntas">Volver a la página inicial</a>';
+  var answer =
+'<!DOCTYPE html>' + "\n" +
+'<html lang="en">' + "\n" +
+'<head>' + "\n" +
+'  <meta charset="UTF-8">' + "\n" +
+'  <title>Respuesta</title>' + "\n" +
+'</head>' + "\n" +
+'<body>' + "\n" +
+'  kind' + "\n" +
+'  <br>' + "\n" +
+'  suggest' + "\n" +
+'  <br>' + "\n" +
+'  <a href="/preguntas">Volver a la página inicial</a>' + "\n" +
+'</body>' + "\n" +
+'</html>';
+  console.log(answer);
+  return answer.replace(/kind/g, kind).replace(/\bsuggest\b/g, suggest);
 }
 
 app.get('/preguntas', function(req, res) {
