@@ -5,6 +5,15 @@
 Véase
 [https://www.miriadax.net/web/javascript-node-js](https://www.miriadax.net/web/javascript-node-js)
 
+* [FirefoxOS HTML5](https://www.youtube.com/channel/UCi0iZJ2QSU4koTMJ5WeUaVA) YouTube
+* [FirefoxOS HTML5 videos](https://www.youtube.com/user/FirefoxOSHTML5/videos) YouTube
+* [Curso MOOC Node.JS. Quiz 7A. La base de datos](https://youtu.be/l5nviUiDRDI) YouTube
+* [Curso MOOC Node.JS. Quiz 7b: sequelize.js y SQLite](https://youtu.be/mU_GDocS_Ys) YouTube
+* [Curso MOOC Node.JS. Quiz 8: Despliegue DB en Heroku](https://youtu.be/_jzjaraiE3A) YouTube
+* [Curso MOOC Node.JS. Quiz 9: Lista de preguntas](https://youtu.be/zGT8rVBe2hY) YouTube
+* [Curso MOOC Node.JS. Quiz 10: Autoload](https://youtu.be/pSDk_l_jhs0) YouTube
+* [Curso MOOC Node.JS. Proyecto Quiz 15. Crear comentario](https://www.youtube.com/watch?v=olCP6o3_zGg) YouTube
+
 ## Quien
 
 UPM. 
