@@ -10,6 +10,7 @@ Véase
 * [FirefoxOS HTML5](https://www.youtube.com/channel/UCi0iZJ2QSU4koTMJ5WeUaVA) YouTube
 * [FirefoxOS HTML5 videos](https://www.youtube.com/user/FirefoxOSHTML5/videos) YouTube
 * [Curso MOOC html5 y node.js: Introducción al curso y al programa](https://youtu.be/5uvM7zeLGyQ) YouTube
+* [Sistema operativo Unix: Introducción. Juan Carlos Yelmo](https://youtu.be/_nRGuGA4G5w) YouTube
 * [Curso MOOC Node.JS. Quiz 7A. La base de datos](https://youtu.be/l5nviUiDRDI) YouTube
 * [Curso MOOC Node.JS. Quiz 7b: sequelize.js y SQLite](https://youtu.be/mU_GDocS_Ys) YouTube
 * [Curso MOOC Node.JS. Quiz 8: Despliegue DB en Heroku](https://youtu.be/_jzjaraiE3A) YouTube
