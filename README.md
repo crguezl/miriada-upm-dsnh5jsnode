@@ -20,7 +20,7 @@ Véase
 * [Sistema operativo Unix: La interfaz de usuarios II. Juan Carlos Yelmo](https://youtu.be/oPLOsdjeOwY) YouTube
 * [Sistema operativo Unix: La interfaz de usuarios III. Juan Carlos Yelmo](https://youtu.be/5IhawAobXGw) YouTube
 
-## Videos de Introducción a JavaScript y a Node.JS
+## Modulo I. Videos de Introducción a JavaScript y a Node.JS
 
 * [Curso MOOC Node.JS: Introducción a Javascript. Tipos y valores](https://youtu.be/20ek1mYam1o)
 * [Curso MOOC Node.JS: Expresiones con variables](https://youtu.be/nImIVpIfXCk)
@@ -31,6 +31,12 @@ Véase
 * [Curso MOOC Node.JS. Números](https://youtu.be/3Hns7pxZK9I) YouTube
 * [Curso MOOC Node.JS. Strings y Unicode](https://youtu.be/2_K1Z3Tmdak) YouTube
 * [Curso MOOC Node.JS. Funciones](https://youtu.be/QFeZqa_VObc) YouTube
+* [Curso MOOC Node.JS. Funciones como objetos y cierres](https://youtu.be/uaRP_U53u2E) YouTube
+
+## Módulo II. Mas JavaScript y Node.JS
+
+* [Curso MOOC Node.JS. Bucles. Sentencias While, For y Do/While](https://youtu.be/l4ZNL7aS6rE) YouTube
+* [Curso MOOC Node.JS. Bucles. Objetos, propiedades y métodos](https://youtu.be/TvDn8YtyVaw?t=21s) YouTube
 
 ## Express.JS
 
