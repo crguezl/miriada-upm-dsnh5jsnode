@@ -43,6 +43,7 @@ Véase
 * [Curso MOOC Node.JS. La Clase Array](https://youtu.be/fmgnKkJDgFw) YouTube
 * [Curso MOOC Node.JS. JSON (JavaScript Object Notation)](https://youtu.be/Jm6jiPy0C_M) YouTube
 * [Curso MOOC Node.JS. Prototipos y clases JavaScript](https://youtu.be/ZaC2TdOn6J8) YouTube
+* [Curso MOOC Node.JS. Espacios de nombres y cierres (closures)](https://youtu.be/2MWAt8v92HQ) YouTube
 
 ## Express.JS
 
