@@ -20,14 +20,20 @@ Véase
 * [Sistema operativo Unix: La interfaz de usuarios II. Juan Carlos Yelmo](https://youtu.be/oPLOsdjeOwY) YouTube
 * [Sistema operativo Unix: La interfaz de usuarios III. Juan Carlos Yelmo](https://youtu.be/5IhawAobXGw) YouTube
 
-## Videos de Introducción a JavaScript
+## Videos de Introducción a JavaScript y a Node.JS
 
 * [Curso MOOC Node.JS: Introducción a Javascript. Tipos y valores](https://youtu.be/20ek1mYam1o)
 * [Curso MOOC Node.JS: Expresiones con variables](https://youtu.be/nImIVpIfXCk)
 * [Curso MOOC Node.JS: Programa, sentencia, variable y comentario](https://youtu.be/YmaTo8x_LA8)
-
-## JavaScript en el Servidor: Node.js
 * [Curso MOOC Node.JS. Introducción a Node.JS](https://youtu.be/ydzOcjE7-A4) YouTube
+* [Curso MOOC Node.JS. Booleano,igualdad y otros operadores lógicos](https://youtu.be/4AUjKP1udRc) YouTube
+* [Curso MOOC Node.JS. Sentencia IF/ELSE](https://youtu.be/933cbQ2ZLX8) YouTube
+* [Curso MOOC Node.JS. Números](https://youtu.be/3Hns7pxZK9I) YouTube
+* [Curso MOOC Node.JS. Strings y Unicode](https://youtu.be/2_K1Z3Tmdak) YouTube
+* [Curso MOOC Node.JS. Funciones](https://youtu.be/QFeZqa_VObc) YouTube
+
+## Express.JS
+
 * [Curso MOOC Node.JS. Quiz 7A. La base de datos](https://youtu.be/l5nviUiDRDI) YouTube
 * [Curso MOOC Node.JS. Quiz 7b: sequelize.js y SQLite](https://youtu.be/mU_GDocS_Ys) YouTube
 * [Curso MOOC Node.JS. Quiz 8: Despliegue DB en Heroku](https://youtu.be/_jzjaraiE3A) YouTube
