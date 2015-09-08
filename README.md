@@ -37,6 +37,8 @@ Véase
 
 * [Curso MOOC Node.JS. Bucles. Sentencias While, For y Do/While](https://youtu.be/l4ZNL7aS6rE) YouTube
 * [Curso MOOC Node.JS. Bucles. Objetos, propiedades y métodos](https://youtu.be/TvDn8YtyVaw?t=21s) YouTube
+* [Curso MOOC Node.JS. Sentencia FOR/IN](https://youtu.be/WA_a9r1bfyc) YouTube
+* [Curso MOOC Node.JS. Objetos: Propiedades dinámicas y anidadas](https://youtu.be/jcMLC793ttg) YouTube
 
 ## Express.JS
 
