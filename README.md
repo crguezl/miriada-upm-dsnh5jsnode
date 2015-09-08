@@ -44,6 +44,16 @@ Véase
 * [Curso MOOC Node.JS. JSON (JavaScript Object Notation)](https://youtu.be/Jm6jiPy0C_M) YouTube
 * [Curso MOOC Node.JS. Prototipos y clases JavaScript](https://youtu.be/ZaC2TdOn6J8) YouTube
 * [Curso MOOC Node.JS. Espacios de nombres y cierres (closures)](https://youtu.be/2MWAt8v92HQ) YouTube
+* [Curso MOOC Node.JS. Objetos como diccionarios, cierres y clases y algo de metodología](https://youtu.be/3PQkJCYcEVA YouTube
+
+## Módulo III. Node.JS
+
+* [Curso MOOC Node.JS. Módulos node.js](https://youtu.be/dRfPBe-HxKE) YouTube
+* [Curso MOOC Node.JS. Expresiones regulares I: Búsqueda de Patrones](https://youtu.be/S6EPC4PQv7s) YouTube
+* [Curso MOOC Node.JS. Expresiones regulares II: Repetición y alternativa](https://youtu.be/Hg3cp9vNgDo) YouTube
+* [Curso MOOC Node.JS. Expresiones regulares III: Subpatrones y sustituciones](https://youtu.be/Cz-71sfyWnQ) YouTube
+* [Curso MOOC Node.JS. Eventos Node.JS](https://youtu.be/Cz-71sfyWnQ) YouTube
+* [Curso MOOC Node.JS. Entorno de ejecución. Objetos global y process](https://youtu.be/ieCXg4Sx8UY) YouTube
 
 ## Express.JS
 
