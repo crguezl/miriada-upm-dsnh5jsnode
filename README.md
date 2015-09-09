@@ -86,13 +86,18 @@ Véase
 * [Curso MOOC Node.JS: Quiz 5. CSS adaptable a móviles](https://youtu.be/fFvFm9WXcI0)
 * [Curso MOOC Node.JS: Quiz 6: Despliegue en Heroku](https://youtu.be/pHrxmgE1-eM)
 
-## Express.JS
+## Módulo VII: La Base de Datos
 
 * [Curso MOOC Node.JS. Quiz 7A. La base de datos](https://youtu.be/l5nviUiDRDI) YouTube
 * [Curso MOOC Node.JS. Quiz 7b: sequelize.js y SQLite](https://youtu.be/mU_GDocS_Ys) YouTube
 * [Curso MOOC Node.JS. Quiz 8: Despliegue DB en Heroku](https://youtu.be/_jzjaraiE3A) YouTube
 * [Curso MOOC Node.JS. Quiz 9: Lista de preguntas](https://youtu.be/zGT8rVBe2hY) YouTube
 * [Curso MOOC Node.JS. Quiz 10: Autoload](https://youtu.be/pSDk_l_jhs0) YouTube
+
+## Módulo VIII
+
+* [Curso MOOC Node.JS. Proyecto Quiz 11. Crear preguntas](https://youtu.be/Hwl7XhO0cO8) YouTube
+* [Curso MOOC Node.JS. Proyecto Quiz 12. Validación de entradas](https://youtu.be/8_KKOIbdPIE) YouTube
 * [Curso MOOC Node.JS. Proyecto Quiz 15. Crear comentario](https://www.youtube.com/watch?v=olCP6o3_zGg) YouTube
 
 ## Quien
