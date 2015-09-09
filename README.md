@@ -69,6 +69,15 @@ Véase
 * [Curso MOOC Node.JS: Composición y ejecución de middlewares](https://youtu.be/2r6BU7R2RYI)
 * [Curso MOOC Node.JS: Formulario GET](https://youtu.be/mRfrUUyL2gE)
 * [Curso MOOC Node.JS: URL Encode](https://youtu.be/twaXe7MrNfA)
+* [Curso MOOC Node.JS: Formulario POST](https://youtu.be/QaN9z66kyAo)
+* [Curso MOOC Node.JS: Parámetro oculto y method override](https://youtu.be/sR_Vqa9aVa0)
+
+## Módulo V: Gestión de proyectos software con Git y Github
+
+## Módulo VI: El proyecto Quiz y MVC
+
+* [Curso MOOC Node.JS: El Proyecto Quiz y MVC](https://youtu.be/HSuOf0204HM)
+* [Curso MOOC Node.JS: Esqueleto del proyecto con express-generador](https://youtu.be/CxtSbqZ07go)
 
 ## Express.JS
 
