@@ -54,6 +54,8 @@ Véase
 * [Curso MOOC Node.JS. Expresiones regulares III: Subpatrones y sustituciones](https://youtu.be/Cz-71sfyWnQ) YouTube
 * [Curso MOOC Node.JS. Eventos Node.JS](https://youtu.be/Cz-71sfyWnQ) YouTube
 * [Curso MOOC Node.JS. Entorno de ejecución. Objetos global y process](https://youtu.be/ieCXg4Sx8UY) YouTube
+* [Curso MOOC Node.JS. Gestión de la concurrencia en Node.JS](https://youtu.be/3AWeuXsnqdM) YouTube
+* [Concurrency and Parallel Computing in JavaScript](http://www.infoq.com/presentations/javascript-concurrency-parallelism) InfoQ. Stephan Herhut. Mar 05, 2014
 
 ## Express.JS
 
