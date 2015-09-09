@@ -64,6 +64,8 @@ Véase
 * [Curso MOOC Node.JS: Servidor Web](https://youtu.be/abdFs7jQN6Q)
 * [Curso MOOC Node.JS: Introducción a express.js y al middleware static](https://youtu.be/Am6v7apaTkI)
 * [Curso MOOC Node.JS: Introducción a REST](https://youtu.be/YTiR8chQ3zY)
+* [Curso MOOC Node.JS: Aplicaciones REST con express.js](https://youtu.be/fY8Q0UBjVlA)
+* [Curso MOOC Node.JS: Acceso a campos de la ruta (path)](https://youtu.be/y7udaRSB7AA)
 
 ## Express.JS
 
