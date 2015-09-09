@@ -44,7 +44,7 @@ Véase
 * [Curso MOOC Node.JS. JSON (JavaScript Object Notation)](https://youtu.be/Jm6jiPy0C_M) YouTube
 * [Curso MOOC Node.JS. Prototipos y clases JavaScript](https://youtu.be/ZaC2TdOn6J8) YouTube
 * [Curso MOOC Node.JS. Espacios de nombres y cierres (closures)](https://youtu.be/2MWAt8v92HQ) YouTube
-* [Curso MOOC Node.JS. Objetos como diccionarios, cierres y clases y algo de metodología](https://youtu.be/3PQkJCYcEVA YouTube
+* [Curso MOOC Node.JS. Objetos como diccionarios, cierres y clases y algo de metodología](https://youtu.be/3PQkJCYcEVA) YouTube
 
 ## Módulo III. Node.JS
 
