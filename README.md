@@ -86,7 +86,7 @@ Véase
 * [Curso MOOC Node.JS: Quiz 5. CSS adaptable a móviles](https://youtu.be/fFvFm9WXcI0)
 * [Curso MOOC Node.JS: Quiz 6: Despliegue en Heroku](https://youtu.be/pHrxmgE1-eM)
 
-## Módulo VII: La Base de Datos
+## Módulo VII: La Base de Datos: ORM, despliegue
 
 * [Curso MOOC Node.JS. Quiz 7A. La base de datos](https://youtu.be/l5nviUiDRDI) YouTube
 * [Curso MOOC Node.JS. Quiz 7b: sequelize.js y SQLite](https://youtu.be/mU_GDocS_Ys) YouTube
@@ -94,11 +94,19 @@ Véase
 * [Curso MOOC Node.JS. Quiz 9: Lista de preguntas](https://youtu.be/zGT8rVBe2hY) YouTube
 * [Curso MOOC Node.JS. Quiz 10: Autoload](https://youtu.be/pSDk_l_jhs0) YouTube
 
-## Módulo VIII
+## Módulo VIII: La Base de Datos. Crear, Validar, Editar, Borrar
 
 * [Curso MOOC Node.JS. Proyecto Quiz 11. Crear preguntas](https://youtu.be/Hwl7XhO0cO8) YouTube
 * [Curso MOOC Node.JS. Proyecto Quiz 12. Validación de entradas](https://youtu.be/8_KKOIbdPIE) YouTube
+* [Curso MOOC Node.JS. Proyecto Quiz 13: Editar preguntas](https://youtu.be/_e-NuFnUbRM) YouTube
+* [Curso MOOC Node.JS. Proyecto Quiz 14. Borrar Preguntas](https://youtu.be/K0kfQ9zu0F8) YouTube
+
+## Módulo IX
 * [Curso MOOC Node.JS. Proyecto Quiz 15. Crear comentario](https://www.youtube.com/watch?v=olCP6o3_zGg) YouTube
+* [Curso MOOC Node.JS. Proyecto Quiz 16. Autenticación y sesión](https://youtu.be/-B9xccfAwNw) YouTube
+* [Curso MOOC Node.JS.  Proyecto Quiz 17. Autorización](https://youtu.be/FNQ_SlRnR68) YouTube
+* [Curso MOOC Node.JS. Quiz 18: Moderación de Comentarios](https://youtu.be/3hUWsiVTlhc) YouTube
+* [Curso MOOC Node.JS. Proyecto Quiz 19. HTTPS Seguro](https://youtu.be/JolYVBhYT44) YouTube
 
 ## Quien
 
