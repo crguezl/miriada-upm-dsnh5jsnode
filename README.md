@@ -78,6 +78,10 @@ Véase
 
 * [Curso MOOC Node.JS: El Proyecto Quiz y MVC](https://youtu.be/HSuOf0204HM)
 * [Curso MOOC Node.JS: Esqueleto del proyecto con express-generador](https://youtu.be/CxtSbqZ07go)
+* [Curso MOOC Node.JS: Quiz 1B. Esqueleto del proyecto](https://youtu.be/4Rcgd08QQJs)
+* [Curso MOOC Node.JS: Quiz 1B. Esqueleto del proyecto](https://youtu.be/4Rcgd08QQJs)
+* [Curso MOOC Node.JS: Quiz 2. Primera página y favicon](https://youtu.be/LG7xOeF0UNQ)
+* [Curso MOOC Node.JS: Quiz 3. Primera pregunta](https://youtu.be/DnylqFbaS1g)
 
 ## Express.JS
 
