@@ -56,6 +56,14 @@ Véase
 * [Curso MOOC Node.JS. Entorno de ejecución. Objetos global y process](https://youtu.be/ieCXg4Sx8UY) YouTube
 * [Curso MOOC Node.JS. Gestión de la concurrencia en Node.JS](https://youtu.be/3AWeuXsnqdM) YouTube
 * [Concurrency and Parallel Computing in JavaScript](http://www.infoq.com/presentations/javascript-concurrency-parallelism) InfoQ. Stephan Herhut. Mar 05, 2014
+* [Curso MOOC Node.JS: Acceso a ficheros](https://youtu.be/5YIskyWrtN8)
+
+## Módulo IV: HTTP
+
+* [Curso MOOC Node.JS: Introducción a HTTP](https://youtu.be/KKEMUdLNeN0)
+* [Curso MOOC Node.JS: Servidor Web](https://youtu.be/abdFs7jQN6Q)
+* [Curso MOOC Node.JS: Introducción a express.js y al middleware static](https://youtu.be/Am6v7apaTkI)
+* [Curso MOOC Node.JS: Introducción a REST](https://youtu.be/YTiR8chQ3zY)
 
 ## Express.JS
 
