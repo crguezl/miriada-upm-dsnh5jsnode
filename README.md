@@ -78,6 +78,11 @@ Véase
 * [Curso MOOC Node.JS. Proyecto Quiz 2015 en GITHUB](https://youtu.be/v5C9Js6eTyM)
 * [Curso MOOC Node.JS. GITHUB](https://youtu.be/nKlzxlsBFH4)
 * [Curso MOOC Node.JS. Proyecto random con GITHUB App](https://youtu.be/AwRz2hv8APY)
+* [Curso MOOC Node.JS. Proyecto random con comandos](https://youtu.be/Y9RdWM_LU54)
+* [Curso MOOC Node.JS. GIT. Análisis y gestión del área de trabajo](https://youtu.be/llkd7_wTzXc)
+* [Curso MOOC Node.JS. GIT. Ramas](https://youtu.be/6M4GM-i7who)
+* [Curso MOOC Node.JS. GIT. Unir ramas - Merge](https://youtu.be/xBdFXPUTjrg)
+* [Curso MOOC Node.JS. GIT. Repositorios remotos](https://youtu.be/l89Whhx0pZg)
 
 ## Módulo VI: El proyecto Quiz y MVC
 
