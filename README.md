@@ -72,7 +72,12 @@ Véase
 * [Curso MOOC Node.JS: Formulario POST](https://youtu.be/QaN9z66kyAo)
 * [Curso MOOC Node.JS: Parámetro oculto y method override](https://youtu.be/sR_Vqa9aVa0)
 
-## Módulo V: Gestión de proyectos software con Git y Github
+## Módulo V: Gestión de proyectos software con Git y GitHub
+
+* [Curso MOOC Node.JS. GIT. Proyecto, directorio y versión](https://youtu.be/S7IsIWQ6Jmc)
+* [Curso MOOC Node.JS. Proyecto Quiz 2015 en GITHUB](https://youtu.be/v5C9Js6eTyM)
+* [Curso MOOC Node.JS. GITHUB](https://youtu.be/nKlzxlsBFH4)
+* [Curso MOOC Node.JS. Proyecto random con GITHUB App](https://youtu.be/AwRz2hv8APY)
 
 ## Módulo VI: El proyecto Quiz y MVC
 
@@ -101,7 +106,7 @@ Véase
 * [Curso MOOC Node.JS. Proyecto Quiz 13: Editar preguntas](https://youtu.be/_e-NuFnUbRM) YouTube
 * [Curso MOOC Node.JS. Proyecto Quiz 14. Borrar Preguntas](https://youtu.be/K0kfQ9zu0F8) YouTube
 
-## Módulo IX
+## Módulo IX: Relaciones, Autenticación y Autorización
 * [Curso MOOC Node.JS. Proyecto Quiz 15. Crear comentario](https://www.youtube.com/watch?v=olCP6o3_zGg) YouTube
 * [Curso MOOC Node.JS. Proyecto Quiz 16. Autenticación y sesión](https://youtu.be/-B9xccfAwNw) YouTube
 * [Curso MOOC Node.JS.  Proyecto Quiz 17. Autorización](https://youtu.be/FNQ_SlRnR68) YouTube
